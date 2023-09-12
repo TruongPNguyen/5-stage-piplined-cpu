@@ -1,0 +1,934 @@
+# Reading C:/intelFPGA/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab_cpustim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:03 on Dec 01,2018
+# vlog -reportprogress 300 ./cpustim.sv 
+# -- Compiling module cpustim
+# 
+# Top level modules:
+# 	cpustim
+# End time: 12:30:03 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:03 on Dec 01,2018
+# vlog -reportprogress 300 ./CPU_64bit.sv 
+# -- Compiling module CPU_64bit
+# 
+# Top level modules:
+# 	CPU_64bit
+# End time: 12:30:03 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:03 on Dec 01,2018
+# vlog -reportprogress 300 ./controlLogic.sv 
+# -- Compiling module controlLogic
+# -- Compiling module controlLogic_testbench
+# 
+# Top level modules:
+# 	controlLogic_testbench
+# End time: 12:30:03 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:03 on Dec 01,2018
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 12:30:03 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:03 on Dec 01,2018
+# vlog -reportprogress 300 ./pcUnit.sv 
+# -- Compiling module pcUnit
+# -- Compiling module pcUnit_testbench
+# 
+# Top level modules:
+# 	pcUnit_testbench
+# End time: 12:30:03 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 12:30:04 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_testbench
+# 
+# Top level modules:
+# 	alu_1bit_testbench
+# End time: 12:30:04 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./fullAdder_64bit.sv 
+# -- Compiling module fullAdder_64bit
+# -- Compiling module adderstim
+# 
+# Top level modules:
+# 	adderstim
+# End time: 12:30:04 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./fullAdder_1bit.sv 
+# -- Compiling module fullAdder_1bit
+# -- Compiling module fullAdder_1bit_testbench
+# 
+# Top level modules:
+# 	fullAdder_1bit_testbench
+# End time: 12:30:04 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 12:30:04 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 12:30:04 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:04 on Dec 01,2018
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 12:30:05 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:05 on Dec 01,2018
+# vlog -reportprogress 300 ./zero_flag.sv 
+# -- Compiling module zero_flag
+# -- Compiling module zero_flag_testbench
+# 
+# Top level modules:
+# 	zero_flag_testbench
+# End time: 12:30:05 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:05 on Dec 01,2018
+# vlog -reportprogress 300 ./nor_16x1.sv 
+# -- Compiling module nor_16x1
+# -- Compiling module nor_16x1_testbench
+# 
+# Top level modules:
+# 	nor_16x1_testbench
+# End time: 12:30:05 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:05 on Dec 01,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 12:30:05 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:05 on Dec 01,2018
+# vlog -reportprogress 300 ./mux_4_1.sv 
+# -- Compiling module mux_4_1
+# -- Compiling module mux_4_1_testbench
+# 
+# Top level modules:
+# 	mux_4_1_testbench
+# End time: 12:30:05 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:05 on Dec 01,2018
+# vlog -reportprogress 300 ./mux8_1.sv 
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# 
+# Top level modules:
+# 	mux8_1_testbench
+# End time: 12:30:05 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:05 on Dec 01,2018
+# vlog -reportprogress 300 ./mux16_1.sv 
+# -- Compiling module mux16_1
+# -- Compiling module mux16_1_testbench
+# 
+# Top level modules:
+# 	mux16_1_testbench
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./mux32_1.sv 
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./mux10_5.sv 
+# -- Compiling module mux10_5
+# -- Compiling module mux10_5_testbench
+# 
+# Top level modules:
+# 	mux10_5_testbench
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./mux128_64.sv 
+# -- Compiling module mux128_64
+# -- Compiling module mux128_64_testbench
+# 
+# Top level modules:
+# 	mux128_64_testbench
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./mux256_64.sv 
+# -- Compiling module mux256_64
+# -- Compiling module mux256_64_testbench
+# 
+# Top level modules:
+# 	mux256_64_testbench
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_1_2.sv 
+# -- Compiling module decode_1_2
+# -- Compiling module decode_1_2_testbench
+# 
+# Top level modules:
+# 	decode_1_2_testbench
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_2_4.sv 
+# -- Compiling module decode_2_4
+# -- Compiling module decode_2_4_testbench
+# 
+# Top level modules:
+# 	decode_2_4_testbench
+# End time: 12:30:06 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:06 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_3_8.sv 
+# -- Compiling module decode_3_8
+# -- Compiling module decode_3_8_testbench
+# 
+# Top level modules:
+# 	decode_3_8_testbench
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_5_32.sv 
+# -- Compiling module decode_5_32
+# -- Compiling module decode_5_32_testbench
+# 
+# Top level modules:
+# 	decode_5_32_testbench
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./D_FF.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./D_FF_enable.sv 
+# -- Compiling module D_FF_enable
+# -- Compiling module D_FF_enable_testbench
+# 
+# Top level modules:
+# 	D_FF_enable_testbench
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./Pipe_D_FF.sv 
+# -- Compiling module Pipe_D_FF
+# -- Compiling module Pipe_D_FF_testbench
+# 
+# Top level modules:
+# 	Pipe_D_FF_testbench
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./Pipe_D_FF_5.sv 
+# -- Compiling module Pipe_D_FF_5
+# -- Compiling module Pipe_D_FF_5_testbench
+# 
+# Top level modules:
+# 	Pipe_D_FF_5_testbench
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./Pipe_D_FF_32.sv 
+# -- Compiling module Pipe_D_FF_32
+# -- Compiling module Pipe_D_FF_32_testbench
+# 
+# Top level modules:
+# 	Pipe_D_FF_32_testbench
+# End time: 12:30:07 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:30:07 on Dec 01,2018
+# vlog -reportprogress 300 ./ForwardingUnit.sv 
+# -- Compiling module ForwardingUnit
+# 
+# Top level modules:
+# 	ForwardingUnit
+# End time: 12:30:08 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 12:30:08 on Dec 01,2018
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.CPU_64bit
+# Loading work.controlLogic
+# Loading work.zero_flag
+# Loading work.nor_16x1
+# Loading work.D_FF
+# Loading work.ForwardingUnit
+# Loading work.mux256_64
+# Loading work.D_FF_enable
+# Loading work.mux2_1
+# Loading work.mux128_64
+# Loading work.shifter
+# Loading work.pcUnit
+# Loading work.fullAdder_64bit
+# Loading work.fullAdder_1bit
+# Loading work.instructmem
+# Loading work.Pipe_D_FF
+# Loading work.Pipe_D_FF_32
+# Loading work.mux10_5
+# Loading work.regfile
+# Loading work.decode_5_32
+# Loading work.decode_2_4
+# Loading work.decode_3_8
+# Loading work.decode_1_2
+# Loading work.Pipe_D_FF_5
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux8_1
+# Loading work.mux_4_1
+# Loading work.datamem
+# Loading work.mux32_1
+# Loading work.mux16_1
+# ** Warning: Design size of 9821 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nesnes  Hostname: EE-361PC07  ProcessID: 8972
+#           Attempting to use alternate WLF file "./wlftcrer97".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcrer97
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ../benchmarks/test10_forwarding.arm
+add wave -position end  sim:/cpustim/dut/DaRF
+add wave -position end  sim:/cpustim/dut/DaForward
+add wave -position end  sim:/cpustim/dut/DaEX
+add wave -position end  sim:/cpustim/dut/DbRF
+add wave -position end  sim:/cpustim/dut/DbForward
+add wave -position end  sim:/cpustim/dut/DbEX
+add wave -position end  sim:/cpustim/dut/DbMem
+add wave -position end  sim:/cpustim/dut/WriteDataWB
+add wave -position end  sim:/cpustim/dut/WriteDataMem
+add wave -position end  sim:/cpustim/dut/aluBRF
+add wave -position end  sim:/cpustim/dut/aluBForward
+add wave -position end  sim:/cpustim/dut/aluBEX
+add wave -position end  sim:/cpustim/dut/aluResultEX
+add wave -position end  sim:/cpustim/dut/aluResultMem
+add wave -position end  sim:/cpustim/dut/dataMemOut
+add wave -position end  sim:/cpustim/dut/fullImm16
+add wave -position end  sim:/cpustim/dut/addIMuxOut
+add wave -position end  sim:/cpustim/dut/immSelector
+add wave -position end  sim:/cpustim/dut/newPC
+add wave -position end  sim:/cpustim/dut/oldPC
+add wave -position end  sim:/cpustim/dut/prevPC
+add wave -position end  sim:/cpustim/dut/thePC
+add wave -position end  sim:/cpustim/dut/normalIncPC
+add wave -position end  sim:/cpustim/dut/branchIncPC
+add wave -position end  sim:/cpustim/dut/bToAdder
+add wave -position end  sim:/cpustim/dut/postShiftB
+add wave -position end  sim:/cpustim/dut/altBInput
+add wave -position end  sim:/cpustim/dut/movzMux
+add wave -position end  sim:/cpustim/dut/toRegFinal
+add wave -position end  sim:/cpustim/dut/instructionIF
+add wave -position end  sim:/cpustim/dut/instructionRF
+add wave -position end  sim:/cpustim/dut/brAddr26
+add wave -position end  sim:/cpustim/dut/condAddr19
+add wave -position end  sim:/cpustim/dut/imm16
+add wave -position end  sim:/cpustim/dut/imm12
+add wave -position end  sim:/cpustim/dut/opcode
+add wave -position end  sim:/cpustim/dut/dAddr9
+add wave -position end  sim:/cpustim/dut/RdRF
+add wave -position end  sim:/cpustim/dut/RdEX
+add wave -position end  sim:/cpustim/dut/RdMem
+add wave -position end  sim:/cpustim/dut/RdWB
+add wave -position end  sim:/cpustim/dut/Rm
+add wave -position end  sim:/cpustim/dut/Rn
+add wave -position end  sim:/cpustim/dut/Rmux
+add wave -position end  sim:/cpustim/dut/shamt
+add wave -position end  sim:/cpustim/dut/ForwardA
+add wave -position end  sim:/cpustim/dut/ForwardB
+add wave -position end  sim:/cpustim/dut/ForwardData
+add wave -position end  sim:/cpustim/dut/negative
+add wave -position end  sim:/cpustim/dut/zero
+add wave -position end  sim:/cpustim/dut/fastZero
+add wave -position end  sim:/cpustim/dut/overflow
+add wave -position end  sim:/cpustim/dut/carry_out
+add wave -position end  sim:/cpustim/dut/nTrue
+add wave -position end  sim:/cpustim/dut/zTrue
+add wave -position end  sim:/cpustim/dut/oTrue
+add wave -position end  sim:/cpustim/dut/cTrue
+add wave -position end  sim:/cpustim/dut/ctlLDURBRF
+add wave -position end  sim:/cpustim/dut/ctlLDURBEX
+add wave -position end  sim:/cpustim/dut/ctlLDURBMem
+add wave -position end  sim:/cpustim/dut/zeroFlag
+add wave -position end  sim:/cpustim/dut/carryFlag
+add wave -position end  sim:/cpustim/dut/overflowFlag
+add wave -position end  sim:/cpustim/dut/negativeFlag
+add wave -position end  sim:/cpustim/dut/ALUOpRF
+add wave -position end  sim:/cpustim/dut/ALUOpEX
+add wave -position end  sim:/cpustim/dut/RegWriteRF
+add wave -position end  sim:/cpustim/dut/RegWriteEX
+add wave -position end  sim:/cpustim/dut/RegWriteMem
+add wave -position end  sim:/cpustim/dut/RegWriteWB
+add wave -position end  sim:/cpustim/dut/movz
+add wave -position end  sim:/cpustim/dut/movk
+add wave -position end  sim:/cpustim/dut/MemWriteRF
+add wave -position end  sim:/cpustim/dut/MemWriteEX
+add wave -position end  sim:/cpustim/dut/MemWriteMem
+add wave -position end  sim:/cpustim/dut/Reg2Loc
+add wave -position end  sim:/cpustim/dut/Imm_12
+add wave -position end  sim:/cpustim/dut/ALUSrc
+add wave -position end  sim:/cpustim/dut/MemToRegRF
+add wave -position end  sim:/cpustim/dut/MemToRegEX
+add wave -position end  sim:/cpustim/dut/MemToRegMem
+add wave -position end  sim:/cpustim/dut/UncondBr
+add wave -position end  sim:/cpustim/dut/BrTaken
+add wave -position end  sim:/cpustim/dut/wasBranch
+add wave -position end  sim:/cpustim/dut/read_enableRF
+add wave -position end  sim:/cpustim/dut/read_enableEX
+add wave -position end  sim:/cpustim/dut/read_enableMem
+add wave -position end  sim:/cpustim/dut/flagSetRF
+add wave -position end  sim:/cpustim/dut/flagSetEx
+add wave -position end  sim:/cpustim/dut/ForwardFlag
+add wave -position end  sim:/cpustim/dut/xfer_sizeRF
+add wave -position end  sim:/cpustim/dut/xfer_sizeEX
+add wave -position end  sim:/cpustim/dut/xfer_sizeMem
+add wave -position end  sim:/cpustim/dut/flagSetEX
+do runlab_cpustim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./cpustim.sv 
+# -- Compiling module cpustim
+# 
+# Top level modules:
+# 	cpustim
+# End time: 14:07:42 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./CPU_64bit.sv 
+# -- Compiling module CPU_64bit
+# 
+# Top level modules:
+# 	CPU_64bit
+# End time: 14:07:42 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./controlLogic.sv 
+# -- Compiling module controlLogic
+# -- Compiling module controlLogic_testbench
+# 
+# Top level modules:
+# 	controlLogic_testbench
+# End time: 14:07:42 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./math.sv 
+# -- Compiling module mult
+# -- Compiling module shifter
+# -- Compiling module shifter_testbench
+# -- Compiling module mult_testbench
+# 
+# Top level modules:
+# 	shifter_testbench
+# 	mult_testbench
+# End time: 14:07:42 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./pcUnit.sv 
+# -- Compiling module pcUnit
+# -- Compiling module pcUnit_testbench
+# 
+# Top level modules:
+# 	pcUnit_testbench
+# End time: 14:07:42 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 14:07:42 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:42 on Dec 01,2018
+# vlog -reportprogress 300 ./alu_1bit.sv 
+# -- Compiling module alu_1bit
+# -- Compiling module alu_1bit_testbench
+# 
+# Top level modules:
+# 	alu_1bit_testbench
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./fullAdder_64bit.sv 
+# -- Compiling module fullAdder_64bit
+# -- Compiling module adderstim
+# 
+# Top level modules:
+# 	adderstim
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./fullAdder_1bit.sv 
+# -- Compiling module fullAdder_1bit
+# -- Compiling module fullAdder_1bit_testbench
+# 
+# Top level modules:
+# 	fullAdder_1bit_testbench
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./instructmem.sv 
+# -- Compiling module instructmem
+# -- Compiling module instructmem_testbench
+# 
+# Top level modules:
+# 	instructmem_testbench
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./datamem.sv 
+# -- Compiling module datamem
+# -- Compiling module datamem_testbench
+# 
+# Top level modules:
+# 	datamem_testbench
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./zero_flag.sv 
+# -- Compiling module zero_flag
+# -- Compiling module zero_flag_testbench
+# 
+# Top level modules:
+# 	zero_flag_testbench
+# End time: 14:07:43 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:43 on Dec 01,2018
+# vlog -reportprogress 300 ./nor_16x1.sv 
+# -- Compiling module nor_16x1
+# -- Compiling module nor_16x1_testbench
+# 
+# Top level modules:
+# 	nor_16x1_testbench
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux2_1.sv 
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux_4_1.sv 
+# -- Compiling module mux_4_1
+# -- Compiling module mux_4_1_testbench
+# 
+# Top level modules:
+# 	mux_4_1_testbench
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux8_1.sv 
+# -- Compiling module mux8_1
+# -- Compiling module mux8_1_testbench
+# 
+# Top level modules:
+# 	mux8_1_testbench
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux16_1.sv 
+# -- Compiling module mux16_1
+# -- Compiling module mux16_1_testbench
+# 
+# Top level modules:
+# 	mux16_1_testbench
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux32_1.sv 
+# -- Compiling module mux32_1
+# 
+# Top level modules:
+# 	mux32_1
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux10_5.sv 
+# -- Compiling module mux10_5
+# -- Compiling module mux10_5_testbench
+# 
+# Top level modules:
+# 	mux10_5_testbench
+# End time: 14:07:44 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:44 on Dec 01,2018
+# vlog -reportprogress 300 ./mux128_64.sv 
+# -- Compiling module mux128_64
+# -- Compiling module mux128_64_testbench
+# 
+# Top level modules:
+# 	mux128_64_testbench
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./mux256_64.sv 
+# -- Compiling module mux256_64
+# -- Compiling module mux256_64_testbench
+# 
+# Top level modules:
+# 	mux256_64_testbench
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_1_2.sv 
+# -- Compiling module decode_1_2
+# -- Compiling module decode_1_2_testbench
+# 
+# Top level modules:
+# 	decode_1_2_testbench
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_2_4.sv 
+# -- Compiling module decode_2_4
+# -- Compiling module decode_2_4_testbench
+# 
+# Top level modules:
+# 	decode_2_4_testbench
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_3_8.sv 
+# -- Compiling module decode_3_8
+# -- Compiling module decode_3_8_testbench
+# 
+# Top level modules:
+# 	decode_3_8_testbench
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./decode_5_32.sv 
+# -- Compiling module decode_5_32
+# -- Compiling module decode_5_32_testbench
+# 
+# Top level modules:
+# 	decode_5_32_testbench
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./D_FF.sv 
+# -- Compiling module D_FF
+# 
+# Top level modules:
+# 	D_FF
+# End time: 14:07:45 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:45 on Dec 01,2018
+# vlog -reportprogress 300 ./D_FF_enable.sv 
+# -- Compiling module D_FF_enable
+# -- Compiling module D_FF_enable_testbench
+# 
+# Top level modules:
+# 	D_FF_enable_testbench
+# End time: 14:07:46 on Dec 01,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:46 on Dec 01,2018
+# vlog -reportprogress 300 ./Pipe_D_FF.sv 
+# -- Compiling module Pipe_D_FF
+# -- Compiling module Pipe_D_FF_testbench
+# 
+# Top level modules:
+# 	Pipe_D_FF_testbench
+# End time: 14:07:46 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:46 on Dec 01,2018
+# vlog -reportprogress 300 ./Pipe_D_FF_5.sv 
+# -- Compiling module Pipe_D_FF_5
+# -- Compiling module Pipe_D_FF_5_testbench
+# 
+# Top level modules:
+# 	Pipe_D_FF_5_testbench
+# End time: 14:07:46 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:46 on Dec 01,2018
+# vlog -reportprogress 300 ./Pipe_D_FF_32.sv 
+# -- Compiling module Pipe_D_FF_32
+# -- Compiling module Pipe_D_FF_32_testbench
+# 
+# Top level modules:
+# 	Pipe_D_FF_32_testbench
+# End time: 14:07:46 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:07:46 on Dec 01,2018
+# vlog -reportprogress 300 ./ForwardingUnit.sv 
+# -- Compiling module ForwardingUnit
+# 
+# Top level modules:
+# 	ForwardingUnit
+# End time: 14:07:46 on Dec 01,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:07:47 on Dec 01,2018, Elapsed time: 1:37:39
+# Errors: 0, Warnings: 3
+# vsim -voptargs=""+acc"" -t 1ps -lib work cpustim 
+# Start time: 14:07:47 on Dec 01,2018
+# Loading sv_std.std
+# Loading work.cpustim
+# Loading work.CPU_64bit
+# Loading work.controlLogic
+# Loading work.zero_flag
+# Loading work.nor_16x1
+# Loading work.D_FF
+# Loading work.ForwardingUnit
+# Loading work.mux256_64
+# Loading work.D_FF_enable
+# Loading work.mux2_1
+# Loading work.mux128_64
+# Loading work.shifter
+# Loading work.pcUnit
+# Loading work.fullAdder_64bit
+# Loading work.fullAdder_1bit
+# Loading work.instructmem
+# Loading work.Pipe_D_FF
+# Loading work.Pipe_D_FF_32
+# Loading work.mux10_5
+# Loading work.regfile
+# Loading work.decode_5_32
+# Loading work.decode_2_4
+# Loading work.decode_3_8
+# Loading work.decode_1_2
+# Loading work.Pipe_D_FF_5
+# Loading work.alu
+# Loading work.alu_1bit
+# Loading work.mux8_1
+# Loading work.mux_4_1
+# Loading work.datamem
+# Loading work.mux32_1
+# Loading work.mux16_1
+# ** Warning: Design size of 9821 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: nesnes  Hostname: EE-361PC07  ProcessID: 8972
+#           Attempting to use alternate WLF file "./wlftvndwf3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvndwf3
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Running benchmark: ../benchmarks/test10_forwarding.arm
+run -a
+
+add wave -position end  sim:/cpustim/dut/DaRF
+add wave -position end  sim:/cpustim/dut/DaForward
+add wave -position end  sim:/cpustim/dut/DaEX
+add wave -position end  sim:/cpustim/dut/DbRF
+add wave -position end  sim:/cpustim/dut/DbForward
+add wave -position end  sim:/cpustim/dut/DbEX
+add wave -position end  sim:/cpustim/dut/DbMem
+add wave -position end  sim:/cpustim/dut/WriteDataWB
+add wave -position end  sim:/cpustim/dut/WriteDataMem
+add wave -position end  sim:/cpustim/dut/aluBRF
+add wave -position end  sim:/cpustim/dut/aluBForward
+add wave -position end  sim:/cpustim/dut/aluBEX
+add wave -position end  sim:/cpustim/dut/aluResultEX
+add wave -position end  sim:/cpustim/dut/aluResultMem
+add wave -position end  sim:/cpustim/dut/dataMemOut
+add wave -position end  sim:/cpustim/dut/fullImm16
+add wave -position end  sim:/cpustim/dut/addIMuxOut
+add wave -position end  sim:/cpustim/dut/immSelector
+add wave -position end  sim:/cpustim/dut/newPC
+add wave -position end  sim:/cpustim/dut/oldPC
+add wave -position end  sim:/cpustim/dut/prevPC
+add wave -position end  sim:/cpustim/dut/thePC
+add wave -position end  sim:/cpustim/dut/normalIncPC
+add wave -position end  sim:/cpustim/dut/branchIncPC
+add wave -position end  sim:/cpustim/dut/bToAdder
+add wave -position end  sim:/cpustim/dut/postShiftB
+add wave -position end  sim:/cpustim/dut/altBInput
+add wave -position end  sim:/cpustim/dut/movzMux
+add wave -position end  sim:/cpustim/dut/toRegFinal
+add wave -position end  sim:/cpustim/dut/instructionIF
+add wave -position end  sim:/cpustim/dut/instructionRF
+add wave -position end  sim:/cpustim/dut/brAddr26
+add wave -position end  sim:/cpustim/dut/condAddr19
+add wave -position end  sim:/cpustim/dut/imm16
+add wave -position end  sim:/cpustim/dut/imm12
+add wave -position end  sim:/cpustim/dut/opcode
+add wave -position end  sim:/cpustim/dut/dAddr9
+add wave -position end  sim:/cpustim/dut/RdRF
+add wave -position end  sim:/cpustim/dut/RdEX
+add wave -position end  sim:/cpustim/dut/RdMem
+add wave -position end  sim:/cpustim/dut/RdWB
+add wave -position end  sim:/cpustim/dut/Rm
+add wave -position end  sim:/cpustim/dut/Rn
+add wave -position end  sim:/cpustim/dut/Rmux
+add wave -position end  sim:/cpustim/dut/shamt
+add wave -position end  sim:/cpustim/dut/ForwardA
+add wave -position end  sim:/cpustim/dut/ForwardB
+add wave -position end  sim:/cpustim/dut/ForwardData
+add wave -position end  sim:/cpustim/dut/negative
+add wave -position end  sim:/cpustim/dut/zero
+add wave -position end  sim:/cpustim/dut/fastZero
+add wave -position end  sim:/cpustim/dut/overflow
+add wave -position end  sim:/cpustim/dut/carry_out
+add wave -position end  sim:/cpustim/dut/nTrue
+add wave -position end  sim:/cpustim/dut/zTrue
+add wave -position end  sim:/cpustim/dut/oTrue
+add wave -position end  sim:/cpustim/dut/cTrue
+add wave -position end  sim:/cpustim/dut/ctlLDURBRF
+add wave -position end  sim:/cpustim/dut/ctlLDURBEX
+add wave -position end  sim:/cpustim/dut/ctlLDURBMem
+add wave -position end  sim:/cpustim/dut/zeroFlag
+add wave -position end  sim:/cpustim/dut/carryFlag
+add wave -position end  sim:/cpustim/dut/overflowFlag
+add wave -position end  sim:/cpustim/dut/negativeFlag
+add wave -position end  sim:/cpustim/dut/ALUOpRF
+add wave -position end  sim:/cpustim/dut/ALUOpEX
+add wave -position end  sim:/cpustim/dut/RegWriteRF
+add wave -position end  sim:/cpustim/dut/RegWriteEX
+add wave -position end  sim:/cpustim/dut/RegWriteMem
+add wave -position end  sim:/cpustim/dut/RegWriteWB
+add wave -position end  sim:/cpustim/dut/movz
+add wave -position end  sim:/cpustim/dut/movk
+add wave -position end  sim:/cpustim/dut/MemWriteRF
+add wave -position end  sim:/cpustim/dut/MemWriteEX
+add wave -position end  sim:/cpustim/dut/MemWriteMem
+add wave -position end  sim:/cpustim/dut/Reg2Loc
+add wave -position end  sim:/cpustim/dut/Imm_12
+add wave -position end  sim:/cpustim/dut/ALUSrc
+add wave -position end  sim:/cpustim/dut/MemToRegRF
+add wave -position end  sim:/cpustim/dut/MemToRegEX
+add wave -position end  sim:/cpustim/dut/MemToRegMem
+add wave -position end  sim:/cpustim/dut/UncondBr
+add wave -position end  sim:/cpustim/dut/BrTaken
+add wave -position end  sim:/cpustim/dut/wasBranch
+add wave -position end  sim:/cpustim/dut/read_enableRF
+add wave -position end  sim:/cpustim/dut/read_enableEX
+add wave -position end  sim:/cpustim/dut/read_enableMem
+add wave -position end  sim:/cpustim/dut/flagSetRF
+add wave -position end  sim:/cpustim/dut/flagSetEx
+add wave -position end  sim:/cpustim/dut/ForwardFlag
+add wave -position end  sim:/cpustim/dut/xfer_sizeRF
+add wave -position end  sim:/cpustim/dut/xfer_sizeEX
+add wave -position end  sim:/cpustim/dut/xfer_sizeMem
+add wave -position end  sim:/cpustim/dut/flagSetEX
+restart -f
+# ** Warning: Design size of 9821 instances exceeds ModelSim - Intel FPGA Starter Edition recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim - Intel FPGA Edition. Expect performance to be adversely affected.
+run -a
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Running benchmark: ../benchmarks/test10_forwarding.arm
+# End time: 16:57:50 on Dec 01,2018, Elapsed time: 2:50:03
+# Errors: 0, Warnings: 4
